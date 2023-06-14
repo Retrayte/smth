@@ -1,0 +1,52 @@
+.footer-section {
+    background-color: #002198;
+    margin-top: auto;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul .text{
+    margin-bottom: 15px;
+}
+
+footer a, footer .text {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: right;
+    color: #fff;
+}
+
+.copyright-wrapper {
+    padding: 3px 50px 50px 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    footer {
+        padding: 50px 30px;
+    }
+
+    .copyright-wrapper {
+        padding: 3px 30px 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    footer {
+        padding: 50px 20px;
+    }
+    .copyright-wrapper {
+        padding: 3px 20px 20px 20px;
+    }
+}
